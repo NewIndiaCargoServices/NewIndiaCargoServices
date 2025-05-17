@@ -1,0 +1,54 @@
+.testimonials-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .testimonial-card {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .testimonial-card.active {
+    opacity: 1;
+  }
+  
+  .testimonial-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .testimonial-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  /** @format */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap");
+
+
+
+  
